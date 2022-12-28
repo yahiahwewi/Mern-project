@@ -1,0 +1,23 @@
+
+
+
+GET http://localhost:3001/todos
+###
+POST http://localhost:3001/todo/new
+Content-Type : application/json
+
+{
+
+    "text": "MERN Project"
+}
+###
+DELETE http://localhost:3001/todo/delete/63a88f504952e5c21e2f2931
+
+###
+PUT http://localhost:3001/todo/complete/63a8d1a109a5f9f2acc65e82
+Content-Type : application/json
+
+{
+
+    "status": "complete"
+}
